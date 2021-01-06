@@ -1,0 +1,6 @@
+
+INSERT INTO `socios` (`id_socio`, `apellido`, `nombre`, `dni`, `domicilio`, `telefono`, `email`, `estado`,`fecha_alta`, `fecha_baja`) VALUES (NULL, 'Mierez ', 'Soledad Beatriz ', '29416848', 'Bº20 Viviendas Calle San Martín nº25', '3751601503', 'soledadmierez@yahoo.com.ar', '1', '2021-01-05', NULL), (NULL, 'Gimenez', 'Claudia', '31876502', 'Bº Irrazabal Calle San Juan Nº117', '3754413344', 'gimclau@hotmail.com', '1', '2021-01-05', NULL), (NULL, 'Delpiano', 'Daniel Ernesto', '37118357', 'Bº Centro Av, 25 de mayo', '3764183272', 'danieldelpiano04@gmail.com', '1', '2021-01-05', NULL), (NULL, 'Bogado', 'Valeria Alba', '31457920', 'Bº C.Resucitado calle Las Calandrias S/N', '3754528990', 'valeriabogado@yahoo.com.ar', '1', '2021-01-05', NULL), (NULL, 'Miranda ', 'Cintia Florencia', '31060744', 'Bº Las Rosas calle T. Del Fuego nº3', '3751520855', 'mirandaflorencia1961@gmail.com', '1', '2021-01-05', NULL), (NULL, 'Vera', 'Brigida Elizabeth', '18438555', 'Bº Las leñas calle Tucuman nº716', '3751668162', 'briyyi24@hotmail.com', '1', '2021-01-05', NULL);
+
+
+reestablecer id:
+ALTER TABLE tblname AUTO_INCREMENT = 0;
